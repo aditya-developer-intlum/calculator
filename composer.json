@@ -1,0 +1,19 @@
+{
+    "name": "calculator/calculator",
+    "description": "This demo package will do some calculations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aditya Kumar",
+            "email": "adityakumar.ak127@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Calculator\\Calculator\\": "src/"
+        }
+    },
+    "require": {}
+}
